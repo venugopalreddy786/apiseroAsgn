@@ -1,1 +1,52 @@
+APPS DEVELOPMENT-------
 
+Rich client 
+-> Run on client.
+->No dependence on server.
+->Platform dependency.
+->Requires client expectations like RAM/CPU/Harddisk.
+
+Thin Client
+-> It requires browser and network.
+-> Dependency on server. 
+-> It requires Maintainability. One should download patches very frequently.
+-> It requires validation. Round trips are required which are server resources.
+
+Rich Internet Applications (RIA)
+-> This also requires browser and network.
+-> This asyncronously goes to the server. This leads to high data consumption. 
+-> The speed is high and the round trips are low.
+
+Mobile Applications
+-> It requires a platform or Operating system.
+-> It should be downloaded and installed regularly to be updated with regular versions and patches.
+-> The maintainability is also very high due the above reason.
+-> The interface is user friendly and good when compared to pure thin client.
+-> The apps can operate on offline mode(calculator), online mode(Transaction merchant like GPay) or even in hybrid mode(Paytm, Whatsapp).
+
+Denial of Service (DOS) attack -> This is observed when the server request are limited and is overloaded by unwanted request. Hence leads to denial of service to the request which are geniune and require immediate attention.
+
+Different Languages-------
+
+-> C language has a complied language and is coupled with Operating system.
+-> Language slike Java amd C# are complied into an intermediate syntax known as Byte code in Jave and MSIL in C#. These cannot be executed on Operating system directly. These have to be converted into a machine code in order to be executed. This extra step in execution leads to increase in time when compared to C language. However the performance at the end of the execution is similar in both cases. 
+-> From the above point it is evidebt that Java is independent of the platform.
+-> If there are say 1000 request to execute, the byte conversion to machine code is followed only for the first request, all the remaining 999 request follow. Hence the time delay is only for the first execution. The remaining 999 request have n delay whatsoever.
+
+Orientation-------
+-> Procedure Orientation -> This gives very less importance to data. Ex: C.
+-> Object oriented -> It is amalgamation of data members and member function/procedures which are basically called methods.
+                   -> Data can be dealt only through the method. Functions returns values while Procedures doesn't.
+                   -> Ex: Java
+-> Component oriented -> Ex: ActiveX, Com/Dcom, RMI.              
+-> Service Oriented -> Here the services of the main operator is provided by another operator. Ex: Makemytrip compiles the information of several airlines into its page and offers tickets. It would be difficult for the customer to comapre the values of individual airlines by comparing them by visiting on their main websites.
+
+Types of languages--------
+-> Compiled -> Here, the entire code is complied in one go. So, if there is an error the code is not executed even partially. Ex: C.
+-> Scripted -> The code is interpreted line by line here. So, if there is an error in 24th line of the code, the code is executed till 23rd line only. Ex: Java.
+
+Integration-------
+We compared Indian Express and Times of India.
+-> On examination, we found that the interface wasn't matching.
+-> If we integrate these two codes---- if there is a need---- if there is no creteria for integration (mapping unknown), one has to design on their own such that it is easily adoptable on the interface. If the criteria is known---- study both types and come with a common data.
+-> Application changes -> one has to be fast in modifications and be adaptable to changes. Ex: Whatsapp and Telegram, Zoom and Google meet.
