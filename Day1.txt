@@ -1,0 +1,19 @@
+Day 1 - Computer Fundamentals	
+Application Development
+ Types of Clients
+ 	Rich Client
+Thin Clients
+RIA
+Mobile Applications
+Different Orientations
+Procedure Oriented
+Object Oriented
+Component Oriented
+Service Oriented
+Different Types of Languages
+	Compiled
+Scripting
+Application Changes
+Fast modifications
+Common code with multiple Interfaces
+Need of Integration with different applications   
