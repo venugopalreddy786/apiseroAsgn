@@ -1,1 +1,41 @@
+Application Development----
+Rich client
+->Runs on client side
+->It is Platform dependent
+->No dependency on server
+->Client expectations are high(storage,RAM)
+->Needs redistribution if version changes
+
+Client side
+->Runs on server side
+->It is Platform independent
+->Dependency on server
+->No client expectations
+->Does not require maintainability
+
+Rich Internet Application(RIA)
+->It is similar to thin client
+->Go to server and do things asynchronously
+
+Mobile Application
+->It is Platform dependent
+->It is a software which is designed to run on a mobile device
+->Can be offline,online or hybrid
+
+Orientations-----
+Procedure Oriented 
+->Data is not given much importance,Ex-C
+Object Oriented
+->Data is given much importance,Ex-Java
+Component Oriented
+->Ex-ActiveX,RMI
+Service Oriented
+->Ex-websites like cleartrip,makemytrip etc where we can find details of flights from different airlines
+
+Different Languages-----
+Compiled
+->Whole code is compiled and executed once.Ex-C++,Java
+Scripting
+->A scripting language is a programming language that is interpreted.Ex-Javascript,python
+
 
