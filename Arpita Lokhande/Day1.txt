@@ -4,7 +4,7 @@ Application Development
 Types of Clients ->
 
 1.Rich Client
--platform dependencies( different versions for different OS- linux, windows,mac)
+-platform dependencies( different versions for different OS- linux, windows)
 -validations can be done on client side
 -RAM and storage expectations should be satisfied for client side
 -no auto updation/install of application
