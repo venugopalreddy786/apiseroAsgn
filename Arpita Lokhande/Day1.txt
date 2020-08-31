@@ -1,1 +1,76 @@
+Day 1 - Computer Fundamentals	
+Application Development
+
+Types of Clients ->
+
+1.Rich Client
+-platform dependencies( different versions for different OS- linux, windows,mac)
+-validations can be done on client side
+-RAM and storage expectations should be satisfied for client side
+-no auto updation/install of application
+-high maintainance
+-examples=IDEs, Eclipse, Android Studio
+
+2.Thin Clients
+-No platform dependencies
+-online or cloud applications
+-round trip to server or database for data
+-client hardware expectations are low
+-less maintainance
+-examples= reqres.in,static applications
+
+3.RIA (Rich Internet Applications)
+-Asynchronus data fetch.
+-faster and reliable than rich and thin clients.
+-examples = flipkart, esakal.com
+
+Mobile Applications ->
+-diff versioned for different platforms(android, ios)
+-handy and easy access
+-highly targeted in today's date.
+-apps are available offline/online/also hybrid(offline version but can sync with server when device is online(games,calender,etc)
+-no autoupdate/install
+-client device expectations
+ 
+Different Orientations ->
+1.Procedure Oriented
+-lang- C
+-focused on functions/procedures more than data.
+-step by step approach
+
+2.Object Oriented
+-lang- C++, Java, python
+-focuses on Data more(Objects)
+-eg. an object holding all properties(data members) of a class.(Flight Object holding all info regarding planetype,price,number,origin,destination,etc)
+
+3.Component Oriented
+-logical components of application or module.
+-eg.RMI(remote method invocation) has stub and skeleton components.
+
+4.Service Oriented
+- ex.payment gateway services used in many applications.(gpay,phonepe associated with all uber,flipcart,swiggy,etc)
+-reuse of services.
+
+Different Types of Languages->
+
+1.Compiled
+-languages like c,c++,java.
+-compiler generates machine code in one go. It compiles the  whole code at once and throw error if any.
+
+1.Scripting
+-lang - javascript,typescript
+-interpreter reads code line by line and throws the error immediately if any without processing to next line.
+-comparatively slower than compiler for greater load.
+
+Application Changes->
+Fast modifications->
+-changes in application at very instant of time or immediate modifications required.
+-eg. instagram reels after tiktok was banned.
+
+Common code with multiple Interfaces->
+Need of Integration with different applications ->
+-eg. messenger associated with facebook.
+-interfaces should match for applications.
+-for that common data can be mapped together.
+-if no common data, our own interface can be created and mapped against our own rules.
 
