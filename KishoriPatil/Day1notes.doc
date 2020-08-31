@@ -1,0 +1,66 @@
+
+Day 1 - Computer Fundamentals	
+Application Developmen
+
+Types of Clients
+ 	Rich Client(run on client side)
+-it is platform /os dependent
+-no server dependancy
+-need to redistribute if version changes.
+-scaling of application is provided
+-client expections are high in terms of storage/ram
+-ex.eclipse,calender mobile application
+	
+  Thin Clients (run on server side)
+-Cost savings
+- Work remotely
+-maintainablity is automatic
+-dependent on server
+-round trip required for data
+-no platform dependancy
+-no client expectations
+-ex.reqres.in
+	
+  RIA
+-similar to thin client
+-goto server and fetch data asynchronously
+-get response faster than thin client
+
+Mobile Applications
+-need mobile 
+-platform dependent
+-expectations on client
+-maintainability is not easy 
+-online(games) as well as hybrid(games)
+-offline but sync to server ex.goggle calender
+
+Different Orientations
+	Procedure Oriented
+-data is not given that importance
+-C language.
+	Object Oriented
+-data is very important and protected.
+-Java language.
+	Component Oriented
+-Javabeans
+	Service Oriented
+-Service-orientation encourages reuse in all services, regardless if immediate requirements for reuse exist
+-payment gateways used in online shopping sites
+Different Types of Languages
+	Compiled
+-compilers read and analyze the code only once, and report the errors collectively
+-c,c++,java
+	Scripting
+-Do not require the compilation step and they are interpreted.
+-will read and analyze the code statements each time it meets them and halts at that very instance if there is some error.
+-JavaScript or PHP
+
+	Application Changes
+Fast modifications
+-some needs to change its version as early as possible depending on compitition.
+Common code with multiple Interfaces
+Need of Integration with different applications  
+-interface of different application should match
+-else mapping rules can be applied
+-create your own rules and use those for mapping
+-
