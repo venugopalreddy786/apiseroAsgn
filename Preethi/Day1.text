@@ -1,1 +1,73 @@
+Day 1 - Computer Fundamentals:
+-------------------------------
+Application Development
+ Types of Clients
+ 	1) Rich Client: Software and platform depended so different installables for each platform
+			No dependency on server
+			They are stand-alone, no need of internet or browser.
+			Client side expectations are high means highly dependent on Cpu, RAm,storage
+			Should be installed and updated everytime for new versions (lots of file downloads)
+			For any software change it needs to be downloaded for updated verion
+			
+			Eg: Word, Notepad++
+	
+	2)Thin Clients: Run on server side
+			No expectations from client side,(doesn't depend on Cpu,RAm, storage)
+			Platform independent
+			Do not send any requests asyncly to server
+			Easy to maintain because no need to download/install for sotware/version changes
+			Depends on server and require Browser and internet
+		
+			Eg: Online compiler, file convertors 
 
+	3)RIA: 		Sends requests asyncly to server
+			Need browser and internet
+			Platform independent and runs on server side
+			For good user experience download a lot of data in the background
+			Provides better visual experience and more interactivity
+			
+			Eg: Most of the websites are RIA, Flipkart, Amazon, Google maps
+Mobile Applications
+	Rich client applications
+	Good user interface and easy to navigate
+	May not need internet every time (Offline/Online/Hybrid)
+	Dependent on operating system and device types
+	Requires development of different versions to support different platforms
+	Download and install every time, needs to be updated for latest versions
+	 
+	
+	
+Different Orientations
+	1)Procedure Oriented: More emphasis on functions or steps to be performed
+			      Less importance to data 
+			      Eg: C, pascal
+	
+	2)Object Oriented: More importance to data
+			   Protect data
+			   Data members and member functions
+			   Eg: Java
+
+	3)Component Oriented: logical components of application or module.
+			      Separation of interface and implementation (reus of components).
+			      Language independence.
+			      Eg: Angular, React
+
+	4)Service Oriented: Provides services through online
+			    No need of installation and eas to maintainance
+			    Eg: cloud srvice providers, makemytrip, firebase
+ 
+Different Types of Languages
+	1)Compiled: compiles entire code in one go
+		    generates all bugs/errors at once
+		    Eg: C
+
+	2)Scripting: They interpret the code
+		     Line by line interpretation so takes time
+		     Won't generate all bugs at once
+		     Eg: Javascript
+Application Changes
+	Fast modifications: In order stay revelant to the market/user needs rapid change is necessary
+			    Eg: Increase in size of people in a whatsapp group
+				Insta reels developed immediately after tiktok is banned in India
+	Common code with multiple Interfaces
+	Need of Integration with different applications   
