@@ -14,11 +14,11 @@ Application Development
 		1. Requires processing and storage from server side.
 		2. Client requires network to use the application.
 		3. Asynchronous requests are sent to reduce the overhead on server, and to 			
-    give faster transaction speed to the user.
+    		give faster transaction speed to the user.
 	Mobile Applications:
 		1. Dependent on Client(RAM/Storage/Processing).
 		2. Offline Applications are not dependent on server and Online Applications 			
-    are dependent on server for data.
+    		are dependent on server for data.
 		3. Different Installables required depending on the OS.
     
 Different Orientations
@@ -34,13 +34,16 @@ Different Orientations
     through methods(getters/setters).
 		eg. Java
 	Component Oriented:
-		1. All required features are bundled as components into the software and 			
-    given to the client. Remains as one time investment where the entire 			
-    software is purchased at once.
+		1. Combination of classes+interfaces. Mnay classes and interface combine to satisfy one 
+		functionality as a component.
+		2. All required features are bundled as components into the software and 			
+    		given to the client. Remains as one time investment where the entire 			
+    		software is purchased at once.
 		eg. Tally ERP
 	Service Oriented:
-		1. Sofware features are used on service basis. Works on pay per usage model.
-		2. All SaaS applications. eg. Gsuite, Zoho products. 
+		1. Loosely coupled(easy to change the service provider)
+		2. Sofware features are used on service basis. Works on pay per usage model.
+		3. All SaaS applications. eg. Gsuite, Zoho products. 
     
 Different Types of Languages
 	Compiled:
@@ -53,15 +56,15 @@ Different Types of Languages
 Application Changes
 	Fast modifications:
 		1. Depending on the situations and scenario the applications need to be 			
-    added or modified with new features to sustain in the market.
+    		added or modified with new features to sustain in the market.
 		eg. After demonetization, all the businesses started adding the e-payment 			
-    module immediately. 
+   		module immediately. 
 	Common code with multiple Interfaces:
 		1. When the application is using resources or data from third party 				
-    applications, the response from each third party application may change. So 			
-    will have to always look for their compatability and easy integration. 
+    		applications, the response from each third party application may change. So 			
+    		will have to always look for their compatability and easy integration. 
 	Need of Integration with different applications:
 		1. As the application scales, there are new features to be added or giving 			
-    multiple options for a single transaction(e-payment) for the customers. So 			
-    different applications are intergrated into the system, as per the customer 			
-    needs and market changes.    
+    		multiple options for a single transaction(e-payment) for the customers. So 			
+    		different applications are intergrated into the system, as per the customer 			
+    		needs and market changes.    
