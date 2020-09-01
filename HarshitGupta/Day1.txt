@@ -1,1 +1,30 @@
-Will fill in here!!
+Types of Clients
+ 	Rich Client
+	 ---A lot depends on the client's hardware,No server dependency,Updates needs to be reinstalled
+Thin Clients
+---No Hardware requirement from the Client,Server dependent hence time to fetch data is more,Updates need not be done by the client,No OS dependency
+RIA
+---Uses async calls in the background,Same features as Thin Client
+Mobile Applications
+---- Needs to be developed for different Platforms,Requires hardware on the client side,Updates needs to be downloaded,Apps can be online offline or of Hybrid type.Example of offline is Calculator,Online being GPay and Hybrid being Paytm
+Different Orientations
+Procedure Oriented
+--Here a lot of importance is given to the order in which it is executed,No importance is given to data Example C
+Object Oriented
+--Here mostly every thing is in the form of object and Data is given the most priority.Example Java
+Component Oriented
+
+Service Oriented
+Here we use different services which are already existing so as to reduce the time to redevelop the same code.Different services can be used through APIs .Example Mulesoft
+Different Types of Languages
+	Compiled
+Here a compiler is used where it converts the code into machine language before executing and alerts if any error in the code during compile time only.
+Scripting
+Here the code is not complied before execution bt an interpreter is used and directly interpreted during runtime and excecuted
+Application Changes
+Fast modifications
+--The developed application must be able to adapt to fast changes if required so as to cope up the user requirements
+Common code with multiple Interfaces
+---
+Need of Integration with different applications   
+--If we use different services we must keep in mind the formats from the different serives and integrate in such a way that the appication is scalable
