@@ -1,1 +1,62 @@
+Application Development
+ Types of Clients
+ 	Rich Clients:
+		+ Applications are run and installed on client side.
+		+/- RAM/CPU/Memory depends on client.
+		+ Not dependent on server. Can be run offline
+		- Platform and OS dependency. Different packages required based on the system. 
+		- High Maintainability
+		- Ex - notepad, Android Studio etc
+	Thin Clients:
+		+ Always connected to server. No special Hardware/Software requirements except for Browser/Network.
+		- Many round trips to server/database for any action.
+		- No platform dependency.
+		- Low maintainance and easy updates.
+		- Example - reqres.in, static web-apps
+	RIA:
+		+ Asynchronous data fetch and dynamic updates
+		+ Has the bare requirement of a thin client but is more effecient than both types.
+		+ Ex- Google, Esakal 
+	Mobile Applications:
+		- Platform/OS dependency.
+		- Different installables and packages required for every unique OS and its version.
+		+ Can be complete Online/Offline/Hybrid
+		+ Difficult to update and mantain
+		+ Handy and easy to use
+		
+    
+Different Orientations
+	Procedure Oriented:
+		- Compiled in a proper sequence and order. 
+		- Bad at storing data securely 
+		- Focus is given on methods/procedures rather than data.
+		eg. C
+	Object Oriented:
+		- Focuses more on data and is secured.
+		eg. Java
+	Component Oriented:
+		- All required components are bind together into the software and 			
+    given to the client.
+		eg. RMI 
+	Service Oriented:
+		- Sofware development for providing services that can be reused across various clients. 
+		- All SaaS applications. eg. Gsuite, Zoho products. 
+    
+Different Types of Languages
+	Compiled:
+		- Code is compiled completely at once and executed. 
+		eg. C
+	Scripting:
+		- Code is interpreted and executed line by line. 
+		eg. Javascript
+    
+Application Changes
+	Fast modifications:
+		To sustain the business and fight the competition, companies for immediate 
+		modifications to the system for either coming up with a new product/ update the existing one.
+		eg. JioMeet, Google Meet, Instagram etc 
+	Common code with multiple Interfaces:
+		- For easy integration of third party apps and robust use of the code, interfaces are needed that match the application requirement.
+		- For mapping common data and having a uniformity througout.
+		- Taking into the consideration of the future interfaces that can be merged together. (To solve that we must create our own interface that can be scaled up whenever we need)
 
