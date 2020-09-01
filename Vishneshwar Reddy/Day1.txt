@@ -1,4 +1,4 @@
-Day1 - Computer Development
+Day1 - Computer Fundamentals
 
 Application Development:
 Application development is the process of creating a computer program or a set of programs to perform the different tasks that a business requires. This application development can be done mainly using four types of clients, they are:
