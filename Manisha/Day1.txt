@@ -40,13 +40,10 @@ Object Oriented
 	C++, Java
 
 Component Oriented
-	logical components of application or module.
-	Separation of interface and implementation.
 	Angular
 
 Service Oriented
-	logically represents operation with a specified outcome.
-	provides/reuse the services of others
+	provides the services of others 
 	googlepay
   
  ------------DIFFERENT LANGUAGES
