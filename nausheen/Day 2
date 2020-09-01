@@ -1,7 +1,8 @@
-Overview of day 1
-Programming Fundamentals	
+- Overview of day 1
 
-OOPS Concepts
+-Programming Fundamentals	
+
+-OOPS Concepts
 ORIENTATION
 -> Data was not given due importance, too many snippets can change data.
 - for this we had only two options, local and global variable.
@@ -27,7 +28,20 @@ Wrapping up data and methods into singlr unit, helps programmers for software de
 Inheritance
 -inheriting properties from class, methods.
 -keyword extends
+- super class , sub class
+-code reuse: instance and revoke method
+- common data members, common methods.
+- class can extend only one class and implment many interfaces
+' Inheritance breaks encapsulation'-> when a class has private as well as public members .. and thers derivation .. then this terms to be assumpton
+
+Interface
+-exposing to the outer world
+- all methods to be implemented
+- all methods are public
+- 
 Polymorphism
-Source code Vs Object Code
-Naming Conventions
-Best Practices
+- same thing ,, multiple forms
+- method overloading
+depending upon the context change forms
+ method over riding 
+ with parameters , inheritance
