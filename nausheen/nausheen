@@ -1,1 +1,91 @@
+Application development
+
+Rich client(thick client)
+- depends on platform/os (different installable for each platform)
+- no dependency on the server (works offline)
+- client expectations are high (cpu/hardware/ram should be appropriate), versions
+- rich user experience
+eg:calculator, calendar etc
+
+Thin client
+- does not depends on platform/os
+- depends on the server (works online/hits server as per request)
+- depends on network, browser
+- easy to manage, update
+- complex to develop, easy to deploy
+eg: file converters, google etc
+
+RIA(rich internet application)
+-A mobile application, most commonly referred to as an app, is a type of application software designed to run on a mobile device, such as a smartphone or tablet computer. Mobile applications frequently serve to provide users with 
+similar services to those accessed on PCs.
+-RIA is a modern platform that enables storing of text, images, audio or video in a user-friendly manner.
+- includes background process.
+- asynchronously its going to server.
+eg:gmail, flipkart, esakal etc
+
+Different languages
+c vs java
+-faster(loading is faster, transaction is almost same)
+-platform dependent (needs to be compiled when platform is changed)
+-closer to hardware
+
+java
+-slower(takes longer time to load than c)
+-platform independent (source code is converted to byte code)
+
+DOS attack..denial of service
+-In computing, a denial-of-service attack is a cyber-attack in which the perpetrator seeks
+to make a machine or network resource unavailable to its intended users by temporarily or
+indefinitely disrupting services of a host connected to the Internet
+-DoS attacks accomplish this by flooding the target with traffic, or sending it information that triggers a crash.
+
+mobile applications
+-A mobile application, most commonly referred to as an app, is a type of application software designed to run on a mobile device, such as a smartphone or tablet computer. Mobile applications frequently serve to provide users with 
+similar services to those accessed on PCs
+- very handy, good user interface as it is on mobile.
+- rich client/ thin client
+- can be categorized as native/hybrid/web based
+
+Round trip
+- (using server resources)
+- Whatever we request it wil go to server, database to check or verify or retrieve and until that we have to wait.
+- so in order to make this short we do validation at client .. which will be based on datatype, length, etc
+-caching is also done for this ..
+
+Different Orientations
+Procedure Oriented - c
+less importance to data, but more concentration on implementation
+Object Oriented- java
+Component Oriented
+Service Oriented - facebook
+
+Rss feeds
+- RSS (RDF Site Summary or Really Simple Syndication) is a web feed that allows users
+and applications to access updates to websites in a standardized, computer-readable format. 
+-These feeds can, for example, allow a user to keep track of many different websites in a single news aggregator.
+- is an up-to-date information or list of notifications that a website delivers to its subscribers.
+-It refers to files easily read by a computer called XML files that automatically update information.
+
+Different Types of Languages
+Compiled Programming languages are those which use compiler and
+- static
+- compilers read and analyze the code only once, and report the errors collectively that the code might have
+
+Scripting:
+-Scripting languages are those which use Interpreter.
+-dynamic
+-analyze the code statements each time it meets them and halts at that very instance if there is some error.
+
+Application Changes
+Fast modifications-
+eg:tiktok banned insta reels, food delivering apps making another option of leave delivery on door in covid.
+
+Common code with multiple Interfaces
+
+Need of Integration with different applications 
+-The need for application integration stems from the need to move data between applications. 
+-This includes transferring data from one application to another in a scheduled, ongoing way, or for moving data once from a legacy system into 
+something new. Or, in short, application integration is used to make life easier.
+
+
 
