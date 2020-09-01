@@ -1,0 +1,47 @@
+- Overview of day 1
+
+-Programming Fundamentals	
+
+-OOPS Concepts
+ORIENTATION
+-> Data was not given due importance, too many snippets can change data.
+- for this we had only two options, local and global variable.
+
+here comes OOPS,
+Grouping,, classification
+- Data integration
+-No modifications of data from outside.
+ 
+ We create information, ie by creating objects.
+ objects
+ - instance of class 
+ - Emp e = new Emp();
+
+Abstraction
+- only showing the required details, implementation details are hidden(core logic).
+- google search engine.
+- Abstraction is common done at various levels..(multiple perspective)
+
+Encapsulation: 
+Wrapping up data and methods into single unit, helps programmers for software development.
+
+Inheritance
+-inheriting properties from class, methods.
+-keyword extends
+- super class , sub class
+-code reuse: instance and revoke method
+- common data members, common methods.
+- class can extend only one class and implment many interfaces
+' Inheritance breaks encapsulation'-> when a class has private as well as public members .. and thers derivation .. then this terms to be assumpton
+
+Interface
+-exposing to the outer world
+- all methods to be implemented
+- all methods are public
+- 
+Polymorphism
+-  multiple forms
+- method overloading
+ depending upon the context change forms
+ method over riding 
+ with parameters , inheritance
