@@ -1,1 +1,25 @@
+APPLICATION DEVELOPEMENT
 
+Rich client:(Thick client)
+  - Platform and OS dependent 
+  -required different installables
+  -no need of network connectivity
+  -eg: notepad,calculator
+  
+  
+Thin client:
+    -Required network connectivity and browser support
+    -cannot access without n/w connectivity
+    eg:google
+    
+Combination of Rich+Thin client ->RIA (rich internet application )whose some part we can access offline even if n/w coonectivity is not there.
+eg:paytm
+Background work of RIA is in javascript
+    
+Behaviour of different websites in debugging mode: how particular query is hitting to the server side.
+
+Round Trip of server:
+how particular query hit to the server 
+
+XHR->XML http request known as AJAX request
+request which tries to fetch data from background
