@@ -1,0 +1,29 @@
+Computer Fundamentals
+
+Types of Clients
+1. Rich Client - Complete Installation of the software on the client's system . Uses CPU , Memory and overhead services . If we use all resources of he client , then it's called a 
+                 Rich Client(Thick Client).
+                 Issues - (i)We have to give an exe or msi file.(However we can Convert exe files to its source code using intermediate languages)
+                          (ii)Constant changes in Version.
+                          (iii)Maintainability.
+                          (iv) Tightly Coupled with OS/System Architecture.
+2.Thin Client - All we need is a browser and a functioning network , code distribution is'nt required , hence code is safe , it's simple to handle versioning/maintainability and 
+                OS is not taken into consideraion.
+                Issues - Round Trip - The Server and client are constantly communicating.
+3. Rich Inernet Application(RIA) - Intermediate solution from rich to thin client . Caches important services and data so that the communication between server and client is reduced.
+4.Mobile Applications.
+
+Different Types of Orientation in Programming Languages
+
+1.Procedure Oriented - Concenexecution line by line .
+2.Object Oriented - Data is most crucial entity and data is wrapped with methods ,  we concentrate on one thing at a time.
+3.Component Oriented - Combination of classes and interfaces.
+4.Service Oriented - Where services are offered by top vendors.
+
+
+Programming Fundamentals
+
+Abstraction
+Encapsulation 
+Inheritance 
+Polymorphism.
