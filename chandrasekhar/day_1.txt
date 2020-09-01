@@ -1,0 +1,41 @@
+-----Application Development----
+Rich client
+->Runs on client side
+->It is Platform dependent(different installables)
+->No dependency on server
+->Client expectations are high(storage,RAM)
+->Needs redistribution (software changes)
+
+Thin Client
+->Runs on server side
+->It is Platform independent
+->server dependent
+->No client expectations
+->round trips for server resources
+
+Rich Internet Application(RIA)
+->closly related to thin client
+->Go to server and do things asynchronously(speed and round trips)
+->dependent on server
+
+--------Mobile Application---------
+->It is Platform dependent(diff installable versions)
+->application that is designed to get installed on mobile phone
+->like offline,online or hybrid clients
+->good user interface and controlable
+
+-------Different Languages-----
+Compiled
+->Is a programming langauge in which compilation is done for entire code at a time.Ex-C++,Java
+Scripting
+->A scripting language in which interpreter is used to interpret one by one.Ex-Javascript
+
+-------Orientations-----
+Procedure Oriented 
+->Example-C
+Object Oriented
+->Example-Java
+Component Oriented
+->Example-react, angular js
+Service Oriented
+->Example-amazon,flipcart
