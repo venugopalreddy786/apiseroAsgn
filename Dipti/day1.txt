@@ -1,3 +1,0 @@
-Rich client & Thin client
-Basics of POP,OOP,COP,SOP and its examples
-Behaviour of websites in debugging mode
