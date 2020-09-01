@@ -1,1 +1,74 @@
-Day1 Agenda
+Day1 - Computer Development
+
+Application Development:
+Application development is the process of creating a computer program or a set of programs to perform the different tasks that a business requires. This application development can be done mainly using four types of clients, they are:
+
+  1. Rich Client:-
+    This is the application in the clients computer, written in a programming language which has access to all the functions in the computer. The rich client program runs
+    stand-alone without the need of a web browser. Some of the features of Rich client are:
+    + No Dependency on Server
+    + Different installables for each platform
+    - Client expectations are high(CPU/Storage/RAM)
+    - Redistribute executables
+    
+  2. Thin Client:-
+    A thin client is a computer that runs from the resources stored on a central server instead of a localized hard drive. These work by connecting remotely to a server,
+    where the application, data and memory are stored.
+    + No Client expectations (CPU/Storage/RAM)
+    + No Platform Dependency
+    + Scalability
+    + More efficient manageability
+    - Server Dependency
+    - Network Dependency
+    - Round Trip (Server Resources)
+    
+  3. Rich Internet Client(RIA):-
+    RIA is a Web application with many of the same features and appearances as a Thin Client. A RIA requires a browser, to deliver a user application.
+    Data manipulation is handled by the server, and user interface and related object manipulation are handled by the client machine.
+    + Easy to deploy and maintain
+    + Intelligent (Deliver users exactly what they are expecting and reduce their workload)
+    - Dependent on Internet connectivity
+    
+  4. Mobile Application:-
+    A mobile application is a type of application software designed to run on a mobile device, such as a smartphone or iPhone.
+    Mobile applications frequently serve to provide users with similar services to those accessed on PCs.
+    + Rich User Experience
+    + Application can be accessed anywhere using network
+    - Maintainability
+    - Limited storage
+    - Version updates
+    
+Differnt Orientations:
+
+  1. Procedure Oriented:-
+    A program in a procedural language is a list of instruction where each statement tells the computer to do something. It gives more important to the speed rather than data.
+    It focuses on procedure needed to perform the derived computation.
+    Ex:- C, BASIC, FORTRAN
+    - It takes problem as a sequence of things to be done. Hence, a number of functions are written to solve a problem.
+    - Most of the functions share global data.
+    - Data moves openly from function to function
+    
+  2. Object Oriented:-
+    Object-Oriented Programming or OOPs refers to languages that uses objects in programming.
+    The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+    Ex:- JAVA, C#, C++
+    
+  3. Component Oriented:-
+    Component-oriented programming is a technique of developing software applications by combining pre-existing and new components.
+    Ex:- Angular, React, Vue
+    
+  4. Service Oriented:-
+    Service-Oriented is an approach in which applications make use of services available in the network.
+    In this services are provided to form applications, through a communication call over the internet.
+    Ex:- Mulesoft, Salesforce
+    
+Different type of Languages:
+
+  1. Compiled Language:-
+    A programming language whose programs are typically translated into machine language by a compiler before being executed is called a compiled language.
+    Ex:- C++, Java, C#
+  
+  2. Scripting Language:-
+    The scripting language is basically a language where instructions are written for a run time environment. They do not require the compilation step.
+    It is a programming language designed for integrating and communicating with other programming languages.
+    Ex:- Node JS, Ruby
