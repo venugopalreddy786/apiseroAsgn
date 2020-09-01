@@ -1,60 +1,62 @@
 Computer Fundamentals
 
 Application Development
+
 Types of Clients:
 Rich Client
 -> Runs on client
 -> Platform dependent
 -> Server not required
 -> High hardware resources
--> Maintenaince is required 
+-> Maintenance is required
+
 Thin Clients
--> Runs on server
+-> Runs on a server
 -> Platform independent
 -> Server is required
--> Low hardware resources
--> Maintenaince is less
+-> Low hardware resource
+s-> Maintenance is less
+
 RIA
--> Rich Internet Applications
--> Async
+-> Rich Internet Application
+s-> Async
 -> Rich Client + Thin Client
+
 Mobile Applications
 -> Offline/Online/Hybrid
 -> Use on the go
--> Needs download and instalaltion
+-> Needs download and installation
 -> Versioning
 -> UI design is complex
 
 
-Different Orientations
-Procedure Oriented 
+Different Orientations:
+Procedure-Oriented
 -> Importance => function/procedure
 -> C
-Object Oriented
+Object-Oriented
 -> Importance => data
 -> Java
-Component Oriented
+Component-Oriented
 -> Importance => module's component for a certain logic
 -> Ex-ActiveX,RMI(Remote Method Invocation)
-Service Oriented
--> Via,Bookmyshow : they fetch from multiple sources for commute and provide them in single place
+Service-Oriented-> Via, Bookmyshow: they fetch from multiple sources for commute and provide them in single place
 -> Payment gateway services
 
 
-Different Types of Languages
-Compiled:
--> Compiled at a single go.
+Different Types of Languages:
+Compiled
+-> Compiled at a single go
 -> C
-Scripting:
--> Interpreted, executed one by one line. 
+Scripting
+-> Interpreted executed one by one line
 -> JS
 
-
-Application Changes
-Fast modifications:
--> Changes to adapt with unpredicted situations to continue the business
--> During this pandemic meet, whatsapp increased their support for conference calls 
-Common code with multiple Interfaces:
--> Frequently check for compatability for 3-rd party resources
-Need of Integration with different applications:
+Application Changes:
+Fast modifications
+-> Changes to adapt to unpredicted situations to continue the business
+-> During this pandemic meet, Whatsappgg increased their support for conference calls
+Common code with multiple Interfaces
+-> Frequently check for compatibility for 3-rd party resources
+Need of Integration with different applications
 -> User's options to do a task would be great if multiple options are included
