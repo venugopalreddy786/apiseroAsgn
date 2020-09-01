@@ -8,27 +8,32 @@ Application Development
 			Client side expectations are high means highly dependent on Cpu, RAm,storage
 			Should be installed and updated everytime for new versions (lots of file downloads)
 			For any software change it needs to be downloaded for updated verion
-			
-			Eg: Word, Notepad++
+			Code is distributed (versio, maintainability)
+
+			Eg: Eclipse, Word, Notepad++, 
 	
 	2)Thin Clients: Run on server side
-			No expectations from client side,(doesn't depend on Cpu,RAm, storage)
+			No expectations from client side,(doesn't depend on Cpu, RAm, storage)
 			Platform independent
 			Do not send any requests asyncly to server
 			Easy to maintain because no need to download/install for sotware/version changes
+			Simple to handle Maintainability and versioning
+			No code distribution (code safety)
 			Depends on server and require Browser and internet
+			Round trip (need to wait for response from server) can't do any task until round trip completes
 		
-			Eg: Online compiler, file convertors 
+			Eg: Google search, Online compiler, file convertors 
 
-	3)RIA: 		Sends requests asyncly to server
+	3)RIA: 		Rich Internet Application
+			Sends requests asyncly to server (XHR requests - XML Http request (Ajax))
 			Need browser and internet
 			Platform independent and runs on server side
-			For good user experience download a lot of data in the background
+			For good user experience download a lot of data in the background (Caching)
 			Provides better visual experience and more interactivity
 			
 			Eg: Most of the websites are RIA, Flipkart, Amazon, Google maps
 Mobile Applications
-	Rich client applications
+	Rich client applications (installed) + Rich Internet Applications (user internet)
 	Good user interface and easy to navigate
 	May not need internet every time (Offline/Online/Hybrid)
 	Dependent on operating system and device types
@@ -47,14 +52,18 @@ Different Orientations
 			   Data members and member functions
 			   Eg: Java
 
-	3)Component Oriented: logical components of application or module.
-			      Separation of interface and implementation (reus of components).
-			      Language independence.
-			      Eg: Angular, React
+	3)Component Oriented: (classes + interfaces +...) as single unit or component
+			      Eg: RMI, EJB, CORBA, Com/DCom
+			      Group of classes working together for a certain fuctionality.
+			      ** Java supports component orientation by using of EJB, RMI only **
+			      
+			      Java extensions: Java SE (core java) -> Java.lang.*
+					       Java EE -> Java.ejb.*
 
-	4)Service Oriented: Provides services through online
-			    No need of installation and eas to maintainance
-			    Eg: cloud srvice providers, makemytrip, firebase
+	4)Service Oriented: Provides services 
+			    Loosely coupled
+			    No need of installation and easy to maintainance
+			    Eg: Payment gateways, Search engine, All cloud services, firebase
  
 Different Types of Languages
 	1)Compiled: compiles entire code in one go
