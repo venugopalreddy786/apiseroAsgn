@@ -3,61 +3,78 @@ Day 1 - Computer Fundamentals
 Application Developmen
 
 Types of Clients
- 	Rich Client(run on client side)
--it is platform /os dependent
--no server dependancy
--need to redistribute if version changes.
--scaling of application is provided
--client expections are high in terms of storage/ram
--ex.eclipse,calender mobile application
+ 	Rich Client(run on client side)
+-Required installation.
+-It is platform /os dependent.
+-No server dependancy.
+-Need to redistribute if version changes.
+-Scaling of application is provided.
+-Client expections are high in terms of storage/memory/CPU.
+-Ex.eclipse.
 	
   Thin Clients (run on server side)
--Cost savings
-- Work remotely
--maintainablity is automatic
--dependent on server
--round trip required for data
--no platform dependancy
--no client expectations
--ex.reqres.in
+-Browser and network required.
+-Cost savings.
+-Provide facility to Work remotely.
+-Maintainablity and versioning is automatic as code is on server
+-Dependent on server.
+-But round trip required to server and back for data.
+-No platform dependancy.
+-No client expectations like OS or Storage.
+-Ex.reqres.in,Google search.
 	
-  RIA
--similar to thin client
--goto server and fetch data asynchronously
--get response faster than thin client
+   RIA(Rich Internet Client)
+-Similar to thin client.
+-But goto server and fetch data asynchronously.(do backgroung work mostly inj avascript)  
+-Reduce time of round trip bycaching of data-get response faster than thin client as it is already downloded.
+-Ex.flipkart,Gmail(you can read unread messages even if you stop your internet connection)
 
-Mobile Applications
--need mobile 
--platform dependent
--expectations on client
--maintainability is not easy 
--online(games) as well as hybrid(games)
--offline but sync to server ex.goggle calender
+	Mobile Applications
+-Need mobile .
+-Mostly combilnation of rci and ria.
+-Platform dependent.
+-Expectations on client.
+-Maintainability and versioning is concern.
+-Online(games) as well as hybrid(games).
+-Offline but sync to server ex.goggle calender.
 
 Different Orientations
 	Procedure Oriented
--data is not given that importance
+-Data is not given that importance.(global/function parameters)
+-Concentrate on code more.
 -C language.
+	
 	Object Oriented
--data is very important and protected.
+-Data is very important and protected.
+-Use methods to encapsulate/hide data.
 -Java language.
+	
 	Component Oriented
--Javabeans
+-Insteade of using class as whole entity use combination of classes and interface as entity)
+-java.lang.* -> (JavaSE) 
+-javax.ejb.* -> (JavaEE) basically extension to java.
+-Ex.Javabeans,RMI,EJB,Corba.
+	
 	Service Oriented
 -Service-orientation encourages reuse in all services, regardless if immediate requirements for reuse exist
--payment gateways used in online shopping sites
+-Has to be loosely coupled (change the service provider any time)-> (in terms of technology,flexibility,interfaces)
+-Instead of buying use it as service.
+-Ex. cloud services,payment gateways used in online shopping sites,using google seach engine as service for your website.
+
 Different Types of Languages
 	Compiled
--compilers read and analyze the code only once, and report the errors collectively
--c,c++,java
+-Compilers read and analyze the code only once, and report the errors collectively
+-C,C++,java
+	
 	Scripting
 -Do not require the compilation step and they are interpreted.
--will read and analyze the code statements each time it meets them and halts at that very instance if there is some error.
+-Will read and analyze the code statements each time it meets them and halts at that very instance if there is some error.
 -JavaScript or PHP
 
 	Application Changes
 Fast modifications
--some needs to change its version as early as possible depending on compitition.
+-Some needs to change its version as early as possible depending on compitition.
+-Goggle started its Gmeet as soon as peolple started using video calls more in lockdown.
 Common code with multiple Interfaces
 Need of Integration with different applications  
 -interface of different application should match
