@@ -84,11 +84,13 @@ Different Types of Languages
 Compiled Programming languages are those which use compiler and
 - static
 - compilers read and analyze the code only once, and report the errors collectively that the code might have
+-JAVA
 
 Scripting:
 -Scripting languages are those which use Interpreter.
 -dynamic
 -analyze the code statements each time it meets them and halts at that very instance if there is some error.
+- eg: PHP, JAVASCRIPT
 
 Application Changes
 Fast modifications-
