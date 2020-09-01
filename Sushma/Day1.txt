@@ -1,1 +1,89 @@
+Rich client:
+- Platform/OS dependency (Different installables for each platform)
+- Run on client side (No dependency on server)
+-Client expectations are high (CPU/RAM/Storage)
 
+Thin Client:
+- Browser and Network dependency
+- Full dependency on server
+- Maintainability (One should download code changes/patches/versions regularly)
+- Needs validation and Round trips are required which are server resources
+
+Rich Internet Applications:
+- Browser and Network dependency
+- Leads to high data consumption due to asyncronously data flow to the server
+- Speed is high and the round trips are low.
+
+Mobile Applications:
+- It is a rich client (Browser + Network dependency)
+- OS/platform dependency (different installable for each platform)
+- Download and installed regularly with regular versions/patches/maintainability
+- Limited storage/RAM/CPU/Processing client
+- Good interface compared to pure thin client
+- Internt connectivity (Offline options -> Card games, Online options -> Transactions like GPay, Hybrid options -> Flipkart)
+
+Denial of Service:
+- This is seen when the server request are limited and is overloaded by unwanted request which leads to denial of service to the request and require immediate  
+  attention.
+
+Different Languages:
+- C language - complied output is tightly coupled with OS/architecture
+- Java/C#/VB.Net are complied into an intermediate code syntax (Java-object code/Byte code and C#-MSIL). Cannot be executed on OS directly
+- Java source code -> Byte code(.class) -> machine code (Time consuming) -> loaded -> transfer amount
+  C++ -> Executable -> loaded (takes less time compared to Java) -> loaded -> transfer amount
+- But performance is same
+
+Web applications:
+- Landing page 
+- Java/C# are slow due to byte code conversion
+- First time loaded -> .class (servlet) -> code
+- Request -> Execute
+
+Check points:
+1) eSakal.com 
+	- Thin Client because not asynchronous
+	- No user dependency 
+	- Static data rendered to 'n' number of users
+	- Background running which denotes to RIA
+	- Usage: Lots of concurrency/predictable load and unpredictable load
+    - Common data for all users - Caching
+
+2) Flipkart.com
+	- RIA (Synchronous)
+	- How much data is exchanged
+	- Usage: Predictable load/unpredictable load
+	
+3) reqres.in
+	- 100% common data for all users
+	
+Orientation:
+1) Procedure Oriented Programming (POP):
+	- Talks about some sequence of steps
+	- Very less importance to data
+	
+2) Object Oriented Programming: 
+   - Amalgamation of data members + member (function -> can return value/procedures methods -> cannot return value)
+   - As they dont want to differentiate functions and procedures to avoid this used 'methods' (operations)
+
+3) Component Oriented Programming:
+	- ActiveX,Com/DCom,RMI,EJB
+	
+4) Service Oriented Programming:
+	- The services of the main operator is provided by another operator
+	Ex: Makemytrip compiles the information of several airlines into its page and offers tickets. It would be difficult for the customer to comapre the values of individual airlines by comparing them by visiting on their main websites.
+
+Types of languages:
+- Compiled -> The entire code is complied in one go. If there is an error the code is not executed even partially (C)
+- Scripted -> The code is interpreted one line at a time. If there is an error in 24th line of the code, the code is executed till 23rd line only (Java)
+
+Integration:
+Comparing Indian Express and Times of India
+- Both the companies -> interface not matching
+- Support more such comapanies
+	- YES - Mapping rules ate known then and Software -> Interface <-> different code for adapting for that particular company
+	- NO - Study both types and come up with common name or some kind of mapping
+
+Application changes:
+- Fast modifications and be adaptable to changes (Zoom and Google meet implemeted more during lockdown period)
+- Adaptable -> Thinking that software should not changes
+	List -> Best policies (Tax changed to GST)
