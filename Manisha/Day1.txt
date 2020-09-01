@@ -1,1 +1,55 @@
+---------TYPES OF CLIENTS 
+Rich Client:
+	Platform dependent (in terms of OS, RAM, storage) like notepad++ for windows and oracle for linux,window,solaris
+	Run on client side
+	No dependency on server
+	Client expectations are high (CPU / Storage / RAM)
+  New version comes we need to download and install everytime
+	Notepad++, eclipse
 
+Thin Client (Browser + Network) 
+	Runs on server side
+	No Client expectations (CPU / Storage / RAM)
+  No platform dependency
+  Hacker/online file convertors
+	Easy Maintaibility ( code change/versions/patches )
+	Round Trip done for fetching Server Resources like when we put email and password valid or invalid it hots the server evertime to cross check whether email is valid or not.
+  Denial of service attack
+	
+RIA (Rich Internet Applications)(Browser + Network)
+	Thin Client + Rich clients
+	 Asynchorunlsy hots server and  do few things. (Speed, RoundTrips)
+	egs:newpaper sites
+
+Mobile Applications 
+	OS/Platform dependent  - Different installable for each platform
+	Storage/RAM/Processing of client
+	download + install (versioning / patches / maintainability )
+	Good Interface compared to pure thin client
+	Internet connectivity requirements depends on apps Offline/Online/Hybrid options
+  
+  ----------ORIENTATIONS
+  Procedure Oriented
+	  emphasis on procedures and functions.
+    very less important to data
+	  C language
+    
+Object Oriented
+	emphasis mainly on Data and objects
+	components are objects, attributes, behaviour, class, methods
+	C++, Java
+
+Component Oriented
+	logical components of application or module.
+	Separation of interface and implementation.
+	Angular
+
+Service Oriented
+	logically represents operation with a specified outcome.
+	provides/reuse the services of others
+	googlepay
+  
+ ------------DIFFERENT LANGUAGES
+ Compiled(C,C++)and Scripting(Java)
+ 
+  
