@@ -1,1 +1,108 @@
-day 1
+
+    -----------------------------------------------------------------TYPES OF CLIENTS-------------------------------------------------------------------------------
+
+Rich Client:
+	platform dependent (in terms of OS, RAM, storage)
+	most functions can work on client side without internet connection
+	No dependency on server
+	Client expectations are high (CPU / Storage / RAM)
+	Software changes -> restribute executable
+	eg: Android Studio, Notepad++, eclipse
+
+Thin Client (Browser + Network) ( hacker/file converters/ide
+	Depends on server connectivity for its functions
+	No Client expectations (CPU / Storage / RAM)
+	Easy Maintaibility ( code change/versions/patches )
+	Round Trip done for fetching Server Resources
+	eg:  blogs sites, reqres
+
+RIA (Rich Internet Applications)(Browser + Network)
+	Thin Client + Rich clients
+	 go to server and do few things asynchrnously (Speed, RoundTrips)
+	egs: shopping sites consoles
+	
+	
+Mobile Applications 
+	OS/Platform dependent  - Different installable for each platform
+	Storage/RAM/Processing of client
+	download + install (versioning / patches / maintainability )
+	Good Interface compared to pure thin client
+	Internet connectivity requirements depends on apps Offline/Online/Hybrid options
+		
+
+
+ 
+                                 -------------------------------------Different Orientations--------------------------------
+
+Procedure Oriented
+
+	focusing mainly on procedures and functions than the data.
+	view a problem as sequence of steps to be performed
+	eg: C, Fortan
+
+Object Oriented
+
+	focusing mainly on Data 
+	main elememts are objects, attributes, behaviour, class, methods
+	eg: C++, Java, python
+
+Component Oriented
+	logical components of application or module.
+	Separation of interface and implementation.
+	Language independence.
+	make use of reusable componets than to repeat the work
+	eg: React, Angular, or Vue
+
+Service Oriented
+	logically represents aoperation with a specified outcome.
+	provides/reuse the services of others
+	Payment gateways(gpays, phonepe)
+
+
+
+                                  -----------------------Types of Programming Languages-----------------------------
+
+Compiled
+	gets tanslated into machine code from source code in one go
+	low level language, machine dependent
+	close to machine and used in building drivers
+	eg: c,c++
+
+Scripting
+	are often interpreted, rather than compiled.
+	translated line by line and throws the error at the time it encounters and stops there.
+	relatively slow
+	egs: HTML, Javascript
+
+
+                      --------------------------------------------Application Changes and Updation Required-------------------------
+
+reuse the code, without recreating the components or modules
+to meet the changing customer requriments, fast modification required
+
+
+
+------------------------------------------------------------------------Integration assignment----------------
+Abc.com -------------> IE, TI
+Integration
+1. Both the companies -> interface not matching
+2. Support more such companies 
+
+
+
+ solution---->>we can combine the various data fields of both the data structures and add null values to the one for which we donot have the data.
+		Study both types, and come with common data or mapping
+		item->iteminfo
+		title ->smalltitle
+		link->url
+		info->desc
+		
+ design our own data format.
+			software -> our interface <--> different code for adapting to IE, TI(adapters)
+	
+
+
+
+
+
+
